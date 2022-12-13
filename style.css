@@ -1,0 +1,178 @@
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)) ,url(background/5199021.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-box h1{
+    font-size: 32px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    width: 90%;
+    color: white;
+    transform: translate(-50%,-50%);
+}
+.navbar{
+    color :white;
+    float: right;
+
+}
+a{
+    color: white;
+}
+.logo{
+    float: left;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: red;
+    border-radius: 10px solid;
+    
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+.small-container{
+    max-width: 1090px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25px;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title ::after{
+    content:'';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+ transform: translateX(-50%);
+}
+h4{
+    color: #555;
+    font-weight: normal;
+}
+.col-4{
+    font-size: 14px;
+}
+.rating .fa{
+    color: #ff523b;
+}
+.col-4 :hover{
+    transform: translateY(-5px);
+}
+/*----offer-----*/
+
+.offer{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 80px;
+    padding: 50px 0;
+}
+.col-2 .offer-img{
+    padding: 50px;
+}
+small{
+    color: #555;
+}
+
+
+
+footer{
+    background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)) , url(images/yiger.jpg);
+    padding: 200px 0px 100px;
+    color: white;
+
+}
+.deq{
+    margin-left: 10%;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    
+    background: rgba(255, 255, 255, 0.274);
+    position: relative;
+    cursor: pointer;
+    margin-left: 43%;
+    margin-top: 30%;
+}
+.hero-btn:hover{
+    
+    background: rgba(255, 255, 255, 0.61);
+}
+/*-------footer-------*/
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fa{
+    color: blue;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    border-radius: 50%;
+}
+.fa-heart-o{
+    color: #f44336;
+}
